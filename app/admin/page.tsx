@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getRecentAppointmentList } from "@/lib/actions/appointment.actions";
 import { DataTable } from "@/components/table/DataTable";
-import { columns } from "@/components/table/Columns";
+import { columns } from "@/components/table/columns";
 
 const Admin = async () => {
   const appointments = await getRecentAppointmentList();
